@@ -1,7 +1,13 @@
-const Portfolio = () => {
-  return (
-    <div> Sleek Portfolio</div>
-  )
-}
+import Header from "./Header";
+import Topinfo from "./Topinfo";
 
-export default Portfolio
+const Portfolio = () => {
+    return (
+        <>
+            <Header />
+            <Topinfo />
+        </>
+    );
+};
+
+export default Portfolio;
