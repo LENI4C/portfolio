@@ -1,11 +1,11 @@
 import Header from "./Header";
-import Topinfo from "./Topinfo";
+import Main from "./Main";
 
 const Portfolio = () => {
     return (
         <>
             <Header />
-            <Topinfo />
+            <Main />
         </>
     );
 };
