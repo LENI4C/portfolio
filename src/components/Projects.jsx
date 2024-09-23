@@ -1,3 +1,5 @@
+import projectData from "../../data/projects.js";
+
 const Projects = () => {
     return (
         <>
@@ -9,13 +11,23 @@ const Projects = () => {
                 ensuring every tale concludes with success.
             </p>
 
-            <ProjectCard />
+            {projectData.map((info) => {
+                return <ProjectCard key={info.id} info={info} />;
+            })}
         </>
     );
 };
 
-const ProjectCard = () => {
-    return <div>Projects</div>;
+const ProjectCard = ({
+    info: { id, title, subtitle, imgSrc, stack, link },
+}) => {
+    return (
+        <div
+            className="h-[500px] w-50 my-8 bg-cover bg-top rounded"
+            style={{ backgroundImage: `url(${imgSrc})` }}
+        >
+        </div>
+    );
 };
 
 export default Projects;
