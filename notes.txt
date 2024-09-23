@@ -1,4 +1,9 @@
-- Style the text in the Header Component
+- Fix icons in the Header Component
+- Fix links in the Main Component
+
+
+
+###########################################################
 
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaGithubAlt } from "react-icons/fa";
@@ -12,4 +17,4 @@ import { FaXTwitter } from "react-icons/fa6";
                     <FaInstagram />
                     <FaWhatsapp />
                     <FaXTwitter />
-                </div>
+</div>
