@@ -19,21 +19,21 @@ const Projects = () => {
 };
 
 const ProjectCard = ({
-    info: { id, title, subtitle, imgSrc, stack, link },
+    info: { id, title, subtitle, imgSrc, stack, link, left, color },
 }) => {
     return (
         <div
-            className="relative shadow-md h-[500px] w-50 my-8 bg-cover bg-top rounded cursor-pointer font-bold text-fuchsia-600"
-            style={{ backgroundImage: `url(${imgSrc})` }}
+            className="relative shadow-md h-[500px] w-50 my-8 bg-cover bg-top rounded cursor-pointer font-bold"
+            style={{ backgroundImage: `url(${imgSrc})`, color: color }}
             onClick={() => {
                 window.location.href = link;
             }}
         >
-            <div className="_titles bg-white p-4 backdrop-blur bg-opacity-60">
+            <div className="_titles bg-white p-4 backdrop-blur bg-opacity-60 drop-shadow-lg ">
                 <h3>{title}</h3>
                 <p className="font-semibold">{subtitle}</p>
             </div>
-            <div className="absolute bottom-2 left-2 flex space-x-2">
+            <div className="absolute bottom-2 left-2 flex flex-wrap gap-2">
                 {stack.map((tech, index) => (
                     <span
                         key={index}

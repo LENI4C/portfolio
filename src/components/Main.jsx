@@ -1,9 +1,10 @@
 import leni4c from "../assets/images/leni4c.jpg";
 import Projects from "./Projects";
+import Skills from "./Skills";
 
 const Main = () => {
     return (
-        <main className="mt-20 p-10">
+        <main className="mt-20 p-5">
             <img
                 src={leni4c}
                 alt="leni4c"
@@ -29,6 +30,7 @@ const Main = () => {
                 <span> Open for opportunities</span>
             </div>
             <Projects />
+            <Skills />
         </main>
     );
 };

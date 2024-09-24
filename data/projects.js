@@ -16,7 +16,8 @@ export default [
         imgSrc: awarewverity,
         stack: ["HTML", "CSS", "JavaScript", "Bootstrap"],
         link: "https://awarewverity.netlify.app",
-        left : false
+        left: false,
+        color: "orange",
     },
 
     {
@@ -26,7 +27,8 @@ export default [
         imgSrc: diplomaticdigest,
         stack: ["Wordpress"],
         link: "https://diplomaticdigest.com",
-        left : false
+        left: false,
+        color: "indigo",
     },
 
     {
@@ -36,7 +38,8 @@ export default [
         imgSrc: wordiit,
         stack: ["HTML", "CSS", "JavaScript", "Swiperjs"],
         link: "https://wordiit.netlify.app",
-        left : false
+        left: false,
+        color: "orange",
     },
 
     {
@@ -46,7 +49,8 @@ export default [
         imgSrc: travelJournal,
         stack: ["React", "CSS", "Google Maps"],
         link: "https://travel-journal-chi-pearl.vercel.app",
-        left : true
+        left: true,
+        color: "black",
     },
 
     {
@@ -56,7 +60,8 @@ export default [
         imgSrc: memeGenerator,
         stack: ["React", "CSS", "API"],
         link: "https://meme-generator-three-eta.vercel.app",
-        left : true
+        left: true,
+        color: "fuchsia",
     },
 
     {
@@ -66,7 +71,8 @@ export default [
         imgSrc: huddlejnr,
         stack: ["HTML", "CSS"],
         link: "https://leni4c-huddlejnr.netlify.app",
-        left : false
+        left: false,
+        color: "black",
     },
 
     {
@@ -76,7 +82,8 @@ export default [
         imgSrc: statePractice,
         stack: ["React", "CSS"],
         link: "https://state-practice-seven.vercel.app",
-        left : false
+        left: false,
+        color: "hotpink",
     },
 
     {
@@ -86,7 +93,8 @@ export default [
         imgSrc: apiFun,
         stack: ["HTML", "CSS", "JavaScript", "API"],
         link: "https://api-fun.netlify.app",
-        left : false
+        left: false,
+        color: "fuchsia",
     },
 
     {
@@ -96,6 +104,7 @@ export default [
         imgSrc: domFun,
         stack: ["HTML", "CSS", "JavaScript"],
         link: "https://dom-fun.netlify.app",
-        left : true
+        left: true,
+        color: "blue",
     },
 ];
