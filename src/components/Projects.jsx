@@ -23,7 +23,7 @@ const ProjectCard = ({
 }) => {
     return (
         <div
-            className="relative shadow-md h-[500px] w-55 my-8 bg-cover bg-top rounded cursor-pointer font-bold text-fuchsia-600"
+            className="relative shadow-md h-[500px] w-50 my-8 bg-cover bg-top rounded cursor-pointer font-bold text-fuchsia-600"
             style={{ backgroundImage: `url(${imgSrc})` }}
             onClick={() => {
                 window.location.href = link;
