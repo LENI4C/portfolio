@@ -1,9 +1,11 @@
+import awarewverity from "../src/assets/images/projects/awarewverity.png"
+
 export default [
     {
         id: 1,
         title: "Awareness with Phylority",
         subtitle: "Blog on psychology, theology, philosophy",
-        imgSrc: "../src/assets/images/projects/awarewverity.png",
+        imgSrc: {awarewverity},
         stack: ["HTML", "CSS", "JavaScript", "Bootstrap"],
         link: "https://awarewverity.netlify.app",
     },
