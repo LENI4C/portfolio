@@ -5,8 +5,8 @@ import { MdLightMode } from "react-icons/md";
 
 const Header = () => {
     return (
-        <header className="fixed top-0 bg-white w-full backdrop-blur bg-opacity-60 p-4 flex justify-between align-middle">
-            <h1 className="text-lg font-poppins font-semibold">Leni4c</h1>
+        <header className="text-lg fixed top-0 bg-white w-full backdrop-blur bg-opacity-60 p-4 flex justify-between align-middle z-50">
+            <h1 className="font-poppins font-semibold">Leni4c</h1>
             <GiHamburgerMenu />
             <MdClose />
             <MdOutlineDarkMode />
