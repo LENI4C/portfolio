@@ -5,7 +5,7 @@ export default [
         id: 1,
         title: "Awareness with Phylority",
         subtitle: "Blog on psychology, theology, philosophy",
-        imgSrc: {awarewverity},
+        imgSrc: awarewverity,
         stack: ["HTML", "CSS", "JavaScript", "Bootstrap"],
         link: "https://awarewverity.netlify.app",
     },
