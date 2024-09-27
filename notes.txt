@@ -1,9 +1,2 @@
 - Fix icons in the Header Component
 - Fix links in the Main Component
-
-
-
-###########################################################
-
-
-

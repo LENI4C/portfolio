@@ -13,7 +13,7 @@ const Skills = () => {
   return (
     <section className="my-8">
         <h3 className="text-xl font-bold mt-4 mb-8">My Skills</h3>
-    <div className="_skill-icons flex text-5xl justify-between">
+    <div className="_skill-icons flex text-5xl justify-between cursor-pointer">
         <FaHtml5 className="text-[hsl(13,77%,52%)]"/>
         <FaCss3Alt className="text-[hsl(222,88%,55%)]"/>
         <RiJavascriptFill className="text-[hsl(53,93%,54%)]"/>
