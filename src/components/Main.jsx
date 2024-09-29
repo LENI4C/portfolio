@@ -4,7 +4,7 @@ import Skills from "./Skills";
 
 const Main = () => {
     return (
-        <main className="mt-20 p-5 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-200 transition-colors duration-300">
+        <main className="pt-20 p-5 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-200 transition-colors duration-300">
             {/* Profile Image */}
             <img
                 src={leni4c}
@@ -24,7 +24,7 @@ const Main = () => {
             </p>
             {/* Call to Action Button */}
             <a
-                href="#"
+                href="#contact"
                 className="bg-black dark:bg-white text-white dark:text-black block text-center rounded py-3 font-bold mb-3 transition-transform transform hover:scale-105 hover:shadow-lg"
             >
                 Let's talk

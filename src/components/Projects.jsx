@@ -20,7 +20,7 @@ const darkenColor = (color, amount) => {
 const Projects = () => {
     return (
         <>
-            <h2 className="mt-8 mb-5 text-2xl font-bold">Projects</h2>
+            <h2 className="mt-8 mb-5 text-2xl font-bold" id="projects">Projects</h2>
             <p className="text-gray-500 dark:text-gray-300">
                 Each project is a story waiting to be told, filled with
                 challenges and triumphs. I dive deep into every adventure,
@@ -49,7 +49,7 @@ const ProjectCard = ({
             }}
         >
             {/* Dark overlay */}
-            <div className="absolute inset-0 bg-black bg-opacity-40 transition-opacity duration-300 dark:bg-opacity-60"></div>
+            <div className="absolute inset-0 bg-black bg-opacity-5 transition-opacity duration-300 dark:bg-opacity-50"></div>
             
             <div className="_titles bg-white dark:bg-gray-800 p-4 backdrop-blur bg-opacity-60 drop-shadow-lg">
                 <h3 className="text-gray-900 dark:text-gray-200" style={{ color: color }}>

@@ -29,8 +29,10 @@ const Header = () => {
     return (
         <>
             {/* Header */}
-            <header className="text-2xl fixed top-0 w-full bg-white dark:bg-gray-900 backdrop-blur bg-opacity-60 p-4 flex justify-between items-center z-50">
-                <h1 className="font-poppins font-semibold text-black dark:text-white">
+            <header className="text-2xl fixed top-0 w-full bg-white dark:bg-gray-800 backdrop-blur bg-opacity-60 p-4 flex justify-between items-center z-50">
+                <h1 className="font-poppins font-semibold text-black cursor-pointer dark:text-white" onClick={() => {
+                    window.location.href = "/"
+                }}>
                     Leni4c
                 </h1>
                 <div className="_header-icons flex gap-6 items-center">
@@ -64,19 +66,47 @@ const Header = () => {
 
             {/* Sidebar */}
             <aside
-                className={`fixed top-0 right-0 h-full w-64 bg-white dark:bg-gray-800 shadow-lg transform transition-transform duration-300 z-40 ${
+                className={`fixed top-0 right-0 h-full w-80 bg-white dark:bg-gray-800 shadow-lg transform transition-transform duration-300 z-40 ${
                     isMenuOpen ? "translate-x-0" : "translate-x-full"
                 }`}
             >
                 {/* Sidebar Content */}
                 <div className="p-4">
-                    <h2 className="text-xl font-semibold text-black dark:text-white">Menu</h2>
-                    <ul className="mt-6 space-y-4">
-                        <li className="text-black dark:text-white">Home</li>
-                        <li className="text-black dark:text-white">About</li>
-                        <li className="text-black dark:text-white">Projects</li>
-                        <li className="text-black dark:text-white">Contact</li>
-                    </ul>
+                    
+                <ul className="mt-14 space-y-4">
+  <li className="text-black dark:text-white">
+    <a
+      href="/"
+      className="transition duration-300 ease-in-out hover:text-blue-600 dark:hover:text-blue-400"
+    >
+      Home
+    </a>
+  </li>
+  <li className="text-black dark:text-white">
+    <a
+      href="#projects"
+      className="transition duration-300 ease-in-out hover:text-blue-600 dark:hover:text-blue-400"
+    >
+      Projects
+    </a>
+  </li>
+  <li className="text-black dark:text-white">
+    <a
+      href="#skills"
+      className="transition duration-300 ease-in-out hover:text-blue-600 dark:hover:text-blue-400"
+    >
+      Skills
+    </a>
+  </li>
+  <li className="text-black dark:text-white">
+    <a
+      href="#contact"
+      className="transition duration-300 ease-in-out hover:text-blue-600 dark:hover:text-blue-400"
+    >
+      Contact
+    </a>
+  </li>
+</ul>
                 </div>
             </aside>
 

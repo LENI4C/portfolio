@@ -7,7 +7,7 @@ import { FaXTwitter } from "react-icons/fa6";
 const Footer = () => {
     return (
         // 
-        <footer className="bg-slate-900 text-white p-10 text-center rounded-t-3xl">
+        <footer className="bg-slate-900 text-white p-10 text-center rounded-t-3xl" id="contact">
             <h3 className="text-2xl font-semibold">
                 Let's talk about your project :
             </h3>
